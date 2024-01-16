@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
 
+.hidden{
+    display: none;
+}
+
 
 *{
     font-family: 'Open Sans', sans-serif;
@@ -573,18 +577,196 @@ line-height: 26px; /* 162.5% */
     left: -296px;
     border-radius: 17px;
   }
-  .row-two {
-    background-image: url('../Images/Rectangle\ 8.png');
-    width: 477px;
-    height: 300px;
-    position: relative;
-    left: -296px;
+
+  .content-one {
+    padding: 0;
+    text-align: center;
+  }
+
+
+ .footer-container {
+    background: rgba(19, 19, 24, 0.05);
+    padding: 0;
+    text-align: center;
+  }
+  
+
+
+  .main-content{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content-box {
     border-radius: 16px;
+    border: 1px solid #FF5400;
+    width: 460px;
+    height: 422px;
+    position: relative;
+    left: -356px;
+  }
+
+  .imgage-box {
+    background-image: url("../Images/Rectangle\ 8\ \(1\).png");
+    width: 439px;
+    height: 422px;
+    position: relative;
+    left: -335px;
+    border-radius: 36px;
+  }
+
+.bby-box{
+    position: relative;
+    left: -239px;
+}
+
+.container-content{
+    display: none;
+}
 
 
-    }
-    
-    
+
+body .container .contant-btn {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    width: 186px;
+    height: 204px;
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    position: absolute;
+    top: 229px;
+    left: 54px;
+    gap: 24px;
+}
+
+
+.gallary .row-two {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 24px;
+    margin-top: 333px;
+}
+
+
+
+.imgess-one {
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    width: 573px;
+    height: 300px;
+    margin-left: 272px;
+}
+
+.imgess-two {
+    background-image: url(../Images/Rectangle\ 8.png);
+    width: 573px;
+    height: 300px;
+    margin-left: 236px;
+}
+
+
+
+.imgess-one {
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    width: 573px;
+    height: 300px;
+    margin-left: -31px;
+}
+
+
+.gallary .row-two {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 24px;
+    margin-top: 361px;
+    margin-left: -321px;
+}
+
+
+.imgess-two {
+    background-image: url(../Images/Rectangle\ 8.png);
+    width: 573px;
+    height: 300px;
+    margin-left: -33px;
+}
+.gallary .row-one {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 24px;
+}
+
+.gallary .row-three {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 24px;
+    margin-top: 24px;
+}
+
+
+
+.gallary .row-three {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 24px;
+    margin-top: 24px;
+    margin-left: -320px;
+}
+
+.content-image {
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 398px;
+    height: 247px;
+    position: absolute;
+    height: 323px;
+    left: -318px;
+}
+
+
+
+
+.content-image {
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 597px;
+    height: 284px;
+    position: absolute;
+    left: 31px;
+}
+
+
+.card {
+    /* display: flex; */
+    margin: 50px 355px;
+    gap: 24px;
+}
+
+.content-image-one {
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    border-radius: 16px;
+    height: 284px;
+    position: relative;
+    top: 229px;
+    left: -330px;
+    width: 293px;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+  
 
 
 
