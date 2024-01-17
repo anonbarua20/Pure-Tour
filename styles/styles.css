@@ -492,7 +492,22 @@ line-height: 26px; /* 162.5% */
 }
 
 
+.buy-now{
+    background-color: #FF5400;
+    margin: 50px 355px;
+    border: 100%;
+    border-radius: 8px;
 
+    
+    
+}
+
+
+.buy-content{
+    text-align: center;
+    padding: 20px;
+    color: aliceblue;
+}
 
 
 
@@ -785,8 +800,9 @@ body .container .contant-btn {
     left: 31px;
   }
 
+.nav-link{
 
-
+}
 
 
 
