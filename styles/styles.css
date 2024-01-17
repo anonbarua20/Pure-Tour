@@ -483,6 +483,20 @@ line-height: 26px; /* 162.5% */
 }
 
 
+.content-one p{
+    color: rgba(19, 19, 24, 0.70); 
+}
+
+.text-content p{
+    color: rgba(19, 19, 24, 0.70); 
+}
+
+
+
+
+
+
+
 
 /* responsive */
 @media screen and (max-width: 600px) {
@@ -759,6 +773,32 @@ body .container .contant-btn {
     left: -330px;
     width: 293px;
 }
+
+.content-image {
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 498px;
+    height: 284px;
+    position: absolute;
+    left: 31px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
